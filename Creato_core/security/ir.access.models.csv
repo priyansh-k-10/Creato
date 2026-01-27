@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_creato_influencer_user,creato.influencer user,model_creato_influencer,base.group_user,1,1,1,0
-access_creato_brand_user,creato.brand user,model_creato_brand,base.group_user,1,1,1,0
-access_creato_campaign_user,creato.campaign user,model_creato_campaign,base.group_user,1,1,1,0
