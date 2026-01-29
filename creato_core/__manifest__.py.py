@@ -28,6 +28,6 @@ by other Creato modules such as website, operations, and integrations.
     ],
 
     'installable': True,
-    'application': False,
-    'auto_install': False,
+    'application': True,
+    'auto_install': True,
 }
