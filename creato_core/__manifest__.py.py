@@ -18,7 +18,6 @@ by other Creato modules such as website, operations, and integrations.
 
     'depends': [
         'base',
-        'mail',
     ],
 
     'data': [
@@ -29,5 +28,5 @@ by other Creato modules such as website, operations, and integrations.
 
     'installable': True,
     'application': True,
-    'auto_install': True,
+    'auto_install': False,
 }
