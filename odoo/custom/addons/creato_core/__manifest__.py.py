@@ -23,7 +23,7 @@ by other Creato modules such as website, operations, and integrations.
     'data': [
         'security/ir.model.access.csv',
         'views/creato_base_views.xml',
-        # 'models/models.py',
+        'models/models.py',
     ],
 
     'installable': True,
