@@ -1,7 +1,7 @@
 {
     'name': 'Creato Core',
     'version': '1.0.0',
-    'category': 'Custom',
+    'category': 'CRM',
     'summary': 'Core models and shared backend logic for Creato',
     'description': """
 Creato Core
@@ -14,10 +14,8 @@ It is designed as a technical base module that can be extended
 by other Creato modules such as website, operations, and integrations.
 """,
     'author': 'Priyansh Khatri',
-    'license': 'LGPL-3',
-
     'depends': [
-        'base',
+        'base', crm
     ],
 
     'data': [
