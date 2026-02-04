@@ -1,7 +1,7 @@
 {
     'name': 'Creato Core',
     'version': '1.0.0',
-    'category': 'Customs',
+    'category': 'Custom',
     'summary': 'Core models and shared backend logic for Creato',
     'description': """
 Creato Core
@@ -14,14 +14,15 @@ It is designed as a technical base module that can be extended
 by other Creato modules such as website, operations, and integrations.
 """,
     'author': 'Priyansh Khatri',
+
     'depends': [
-        'base'
+        'base',
     ],
 
     'data': [
         'security/ir.model.access.csv',
-        'views/creato_base_views.xml',
-        'models/models.py',
+        'views/creato_core_views.xml',
+        'data/creato_core_data.xml',
     ],
 
     'installable': True,
