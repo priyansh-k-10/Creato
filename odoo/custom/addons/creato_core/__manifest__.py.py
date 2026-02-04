@@ -1,7 +1,7 @@
 {
     'name': 'Creato Core',
     'version': '1.0.0',
-    'category': 'CRM',
+    'category': 'Customs',
     'summary': 'Core models and shared backend logic for Creato',
     'description': """
 Creato Core
@@ -15,7 +15,7 @@ by other Creato modules such as website, operations, and integrations.
 """,
     'author': 'Priyansh Khatri',
     'depends': [
-        'base', crm
+        'base'
     ],
 
     'data': [
