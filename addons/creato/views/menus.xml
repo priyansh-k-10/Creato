@@ -1,0 +1,5 @@
+<odoo>
+    <menuitem id="creato_root_menu"
+              name="Creato"
+              sequence="10"/>
+</odoo>
