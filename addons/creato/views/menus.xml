@@ -1,5 +1,41 @@
 <odoo>
-    <menuitem id="creato_root_menu"
+
+    <!-- Root Menu -->
+    <menuitem id="menu_creato_root"
               name="Creato"
               sequence="10"/>
+
+    <!-- Core Records Menu -->
+    <menuitem id="menu_creato_core"
+              name="Core Records"
+              parent="menu_creato_root"
+              sequence="20"/>
+
+    <!-- Brand Menu -->
+    <menuitem id="menu_creato_brand"
+              name="Brands"
+              parent="menu_creato_root"
+              action="action_creato_brand"
+              sequence="30"/>
+
+    <!-- Influencer Menu -->
+    <menuitem id="menu_creato_influencer"
+              name="Influencers"
+              parent="menu_creato_root"
+              action="action_creato_influencer"
+              sequence="40"/>
+
+    <!-- Collaboration Menu -->
+    <menuitem id="menu_creato_collaboration"
+              name="Collaborations"
+              parent="menu_creato_root"
+              action="action_creato_collaboration"
+              sequence="50"/>
+
+    <!-- Configuration Menu -->
+    <menuitem id="menu_creato_configuration"
+              name="Configuration"
+              parent="menu_creato_root"
+              sequence="60"/>
+
 </odoo>
