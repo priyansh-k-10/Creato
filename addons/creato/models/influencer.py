@@ -1,6 +1,5 @@
 from odoo import models, fields
 
-
 class CreatoInfluencer(models.Model):
     _name = 'creato.influencer'
     _description = 'Influencer'
