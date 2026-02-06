@@ -1,16 +1,16 @@
 <odoo>
 
     <!-- Tree View -->
-    <record id="view_creato_brand_tree" model="ir.ui.view">
-        <field name="name">creato.brand.tree</field>
+    <record id="view_creato_brand_list" model="ir.ui.view">
+        <field name="name">creato.brand.list</field>
         <field name="model">creato.brand</field>
         <field name="arch" type="xml">
-            <tree string="Brands">
+            <list string="Brands">
                 <field name="name"/>
                 <field name="email"/>
                 <field name="phone"/>
                 <field name="active"/>
-            </tree>
+            </list>
         </field>
     </record>
 
@@ -38,7 +38,7 @@
     <record id="action_creato_brand" model="ir.actions.act_window">
         <field name="name">Brands</field>
         <field name="res_model">creato.brand</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
     </record>
 
 

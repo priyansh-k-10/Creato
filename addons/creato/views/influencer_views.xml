@@ -1,16 +1,16 @@
 <odoo>
 
-    <!-- Tree View -->
-    <record id="view_creato_influencer_tree" model="ir.ui.view">
-        <field name="name">creato.influencer.tree</field>
+    <!-- List View -->
+    <record id="view_creato_influencer_list" model="ir.ui.view">
+        <field name="name">creato.influencer.list</field>
         <field name="model">creato.influencer</field>
         <field name="arch" type="xml">
-            <tree string="Influencers">
+            <list string="Influencers">
                 <field name="name"/>
                 <field name="email"/>
                 <field name="phone"/>
                 <field name="active"/>
-            </tree>
+            </list>
         </field>
     </record>
 
@@ -38,7 +38,7 @@
     <record id="action_creato_influencer" model="ir.actions.act_window">
         <field name="name">Influencers</field>
         <field name="res_model">creato.influencer</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
     </record>
 
 </odoo>
