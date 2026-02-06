@@ -8,8 +8,8 @@
     'data': [
         'security/ir.model.access.csv',
 
-        # 'views/brand_views.xml',
-        # 'views/influencer_views.xml',
+        'views/brand_views.xml',
+        'views/influencer_views.xml',
         # 'views/collaboration_views.xml',
 
         'views/menus.xml',
