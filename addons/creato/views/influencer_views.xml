@@ -1,0 +1,44 @@
+<odoo>
+
+    <!-- Tree View -->
+    <record id="view_creato_influencer_tree" model="ir.ui.view">
+        <field name="name">creato.influencer.tree</field>
+        <field name="model">creato.influencer</field>
+        <field name="arch" type="xml">
+            <tree string="Influencers">
+                <field name="name"/>
+                <field name="email"/>
+                <field name="phone"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <!-- Form View -->
+    <record id="view_creato_influencer_form" model="ir.ui.view">
+        <field name="name">creato.influencer.form</field>
+        <field name="model">creato.influencer</field>
+        <field name="arch" type="xml">
+            <form string="Influencer">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="email"/>
+                        <field name="phone"/>
+                        <field name="active"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- Action -->
+    <record id="action_creato_influencer" model="ir.actions.act_window">
+        <field name="name">Influencers</field>
+        <field name="res_model">creato.influencer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

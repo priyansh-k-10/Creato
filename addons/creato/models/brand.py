@@ -1,8 +1,11 @@
 from odoo import models, fields
 
+
 class CreatoBrand(models.Model):
     _name = 'creato.brand'
-    _description = 'Creato Brand' 
+    _description = 'Brand'
 
-    name = fields.Char(string="Brand Name", required=True)
-    description = fields.Text(string="Description")
+    name = fields.Char(string="Name", required=True)
+    email = fields.Char(string="Email")
+    phone = fields.Char(string="Phone")
+    active = fields.Boolean(string="Active", default=True)

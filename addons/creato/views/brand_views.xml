@@ -1,0 +1,45 @@
+<odoo>
+
+    <!-- Tree View -->
+    <record id="view_creato_brand_tree" model="ir.ui.view">
+        <field name="name">creato.brand.tree</field>
+        <field name="model">creato.brand</field>
+        <field name="arch" type="xml">
+            <tree string="Brands">
+                <field name="name"/>
+                <field name="email"/>
+                <field name="phone"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <!-- Form View -->
+    <record id="view_creato_brand_form" model="ir.ui.view">
+        <field name="name">creato.brand.form</field>
+        <field name="model">creato.brand</field>
+        <field name="arch" type="xml">
+            <form string="Brand">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="email"/>
+                        <field name="phone"/>
+                        <field name="active"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <!-- Action -->
+    <record id="action_creato_brand" model="ir.actions.act_window">
+        <field name="name">Brands</field>
+        <field name="res_model">creato.brand</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+</odoo>
