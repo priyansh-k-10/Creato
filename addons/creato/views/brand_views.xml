@@ -9,7 +9,7 @@
                 <field name="name"/>
                 <field name="product_name"/>
                 <field name="location"/>
-                <field name="last_email_date"/>
+                <field name="email"/>
                 <field name="active"/>
             </list>
         </field>
@@ -27,7 +27,7 @@
                         <field name="name"/>
                         <field name="product_name"/>
                         <field name="location"/>
-                        <field name="last_email_date"/>
+                        <field name="email"/>
                         <field name="active"/>
                     </group>
                 </sheet>

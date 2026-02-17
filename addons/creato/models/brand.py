@@ -6,6 +6,7 @@ class CreatoBrand(models.Model):
     _description = 'Brand'
 
     name = fields.Char(string="Name", required=True)
+    product_name = fields.Char(string="Product Name")
+    location = fields.Char(string="Location")
     email = fields.Char(string="Email")
-    phone = fields.Char(string="Phone")
     active = fields.Boolean(string="Active", default=True)
