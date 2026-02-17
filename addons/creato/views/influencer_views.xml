@@ -8,7 +8,8 @@
             <list string="Influencers">
                 <field name="name"/>
                 <field name="email"/>
-                <field name="phone"/>
+                <field name="insta_username"/>
+                <field name="insta_followers"/>
                 <field name="active"/>
             </list>
         </field>
@@ -25,7 +26,8 @@
                     <group>
                         <field name="name"/>
                         <field name="email"/>
-                        <field name="phone"/>
+                        <field name="insta_username"/>
+                        <field name="insta_followers"/>
                         <field name="active"/>
                     </group>
                 </sheet>
