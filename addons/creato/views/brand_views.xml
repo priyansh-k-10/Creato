@@ -5,13 +5,13 @@
         <field name="name">creato.brand.list</field>
         <field name="model">creato.brand</field>
         <field name="arch" type="xml">
-            <tree string="Brands">
+            <list string="Brands">
                 <field name="name"/>
                 <field name="product_name"/>
                 <field name="location"/>
                 <field name="last_email_date"/>
                 <field name="active"/>
-            </tree>
+            </list>
         </field>
     </record>
 
