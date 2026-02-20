@@ -6,6 +6,6 @@ class CreatoInfluencer(models.Model):
 
     name = fields.Char(string="Name", required=True)
     email = fields.Char(string="Email")
-    insta_followers = fields.Float(float="Instagram Followers")
+    insta_followers = fields.Char(string="Instagram Followers")
     insta_username = fields.Char(string="Intagram Username")
     active = fields.Boolean(string="Active", default=True)
