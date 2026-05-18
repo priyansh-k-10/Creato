@@ -1,6 +1,5 @@
 from odoo import models, fields
 
-
 class CreatoBrand(models.Model):
     _name = 'creato.brand'
     _description = 'Brand'
@@ -10,3 +9,7 @@ class CreatoBrand(models.Model):
     location = fields.Char(string="Location")
     email = fields.Char(string="Email")
     active = fields.Boolean(string="Active", default=True)
+class ResPartner(models.Model):
+    _inherit = 'res.partner'
+
+    customer_code = fields.Char()
